@@ -16,3 +16,12 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+
+article{
+    border: 2px solid lightskyblue;
+}
+
+section{
+    border: 2px solid darkblue;
+    padding: 10px;
+}
