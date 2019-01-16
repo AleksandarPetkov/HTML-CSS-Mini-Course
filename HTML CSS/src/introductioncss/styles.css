@@ -1,0 +1,23 @@
+body{
+    background: #FEE6CD;
+}
+header * {
+    color: #FF5B00;
+}
+
+header article{
+    float: left;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+nav{
+    float: right;
+
+}
+
+main section:nth-child(1) {
+    background: url("http://www.massimofaraci.com/wp-content/uploads/2018/06/Doc.jpg");
+}
