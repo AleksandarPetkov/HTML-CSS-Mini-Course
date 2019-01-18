@@ -1,5 +1,7 @@
 body{
     background: #FEE6CD;
+    font-family: 'Helvetica';
+    padding: 0 100px;
 }
 header * {
     color: #FF5B00;
@@ -13,11 +15,69 @@ header nav ul li{
     display: inline-block;
 }
 
-nav{
-    float: right;
-
+main section:nth-child(1) {
+    text-align: center;
+    background: url("images/picture.jpg");
+    padding: 10rem;
 }
 
 main section:nth-child(1) {
-    background: url("http://www.massimofaraci.com/wp-content/uploads/2018/06/Doc.jpg");
+    color: white;
+    width: 72%;
+    margin: 0 auto;
+}
+
+main section:nth-child(1) h1{
+    color: white;
+    width: 72%;
+    margin: 0 auto;
+}
+
+main section:nth-child(1) span{
+    color:  #FF5B00;
+}
+
+header  nav{
+    text-align: right;
+}
+
+main{
+    margin-top: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+main section:nth-child(1) button{
+    background-color: #FF5B00;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+main section:nth-child(2) article{
+    background-color: #FF5B00;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+main section:nth-child(2) article p{
+   text-align: left;
+    padding: 2rem;
+}
+
+footer{
+   padding: 8px;
+}
+
+footer article:nth-child(1){
+    float: left;
+}
+
+footer article:nth-child(2){
+    float: right;
 }
